@@ -4,5 +4,5 @@ MongoDB compassから出力されるJSON（syntax error出てる……）をCSV�
 ### Run
 ```
 npm install
-node run
+node convert.js ****.json(./dataに入れておく)
 ```
