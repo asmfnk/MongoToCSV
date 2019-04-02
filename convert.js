@@ -1,5 +1,5 @@
 const {createObjectCsvWriter} = require('csv-writer');
-var file = argv[2] || "Untitled.json"
+var file = process.argv[2] || "Untitled.json"
 var data = require( "./data/"+file );
 
 const csvfilepath =  __dirname+'/data/'+file.split('.')[0]+'.csv'
