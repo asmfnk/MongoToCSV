@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv": "^5.1.1",
     "csv-writer": "^1.2.0",
     "fs": "0.0.1-security",
     "moment": "^2.24.0"
